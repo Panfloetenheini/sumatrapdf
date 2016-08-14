@@ -44,17 +44,17 @@ static ToolbarButtonInfo gToolbarButtons[] = {
     { 2,   IDM_GOTO_PREV_PAGE,    _TRN("Previous Page"),  0 },
     { 3,   IDM_GOTO_NEXT_PAGE,    _TRN("Next Page"),      0 },
     { -1,  0,                     nullptr,                   0 },
-	{ 4, IDM_VIEW_ROTATE_LEFT, _TRN("Rotate Left"), 0 },
-	{ 5, IDM_VIEW_ROTATE_RIGHT, _TRN("Rotate Right"), 0 },//IDM_VIEW_ROTATE_LEFT IDM_VIEW_ROTATE_RIGHT 
+	{ 13, IDM_VIEW_ROTATE_LEFT, _TRN("Rotate Left"), 0 },
+	{ 14, IDM_VIEW_ROTATE_RIGHT, _TRN("Rotate Right"), 0 },//IDM_VIEW_ROTATE_LEFT IDM_VIEW_ROTATE_RIGHT 
 	{ -1, 0, nullptr, 0 },
-    { 6,   IDT_VIEW_FIT_WIDTH,    _TRN("Fit Width and Show Pages Continuously"), 0 },
-    { 7,   IDT_VIEW_FIT_PAGE,     _TRN("Fit a Single Page"), 0 },
-    { 8,   IDT_VIEW_ZOOMOUT,      _TRN("Zoom Out"),       0 },
-    { 9,   IDT_VIEW_ZOOMIN,       _TRN("Zoom In"),        0 },
+    { 4,   IDT_VIEW_FIT_WIDTH,    _TRN("Fit Width and Show Pages Continuously"), 0 },
+    { 5,   IDT_VIEW_FIT_PAGE,     _TRN("Fit a Single Page"), 0 },
+    { 6,   IDT_VIEW_ZOOMOUT,      _TRN("Zoom Out"),       0 },
+    { 7,   IDT_VIEW_ZOOMIN,       _TRN("Zoom In"),        0 },
     { -1,  IDM_FIND_FIRST,        nullptr,                   0 },
-    { 10,   IDM_FIND_PREV,         _TRN("Find Previous"),  0 },
-    { 11,   IDM_FIND_NEXT,         _TRN("Find Next"),      0 },
-    { 12,  IDM_FIND_MATCH,        _TRN("Match Case"),     0 },
+    { 8,   IDM_FIND_PREV,         _TRN("Find Previous"),  0 },
+    { 9,   IDM_FIND_NEXT,         _TRN("Find Next"),      0 },
+    { 10,  IDM_FIND_MATCH,        _TRN("Match Case"),     0 },
 };
 
 #define TOOLBAR_BUTTONS_COUNT dimof(gToolbarButtons)
